@@ -53,6 +53,8 @@ export function fileExtension(mimeType) {
     case "wave": return "wav";
 
     case "webm": return "webm";
+
+    case "opus": return "opus";
   }
 }
 
@@ -66,5 +68,6 @@ export function mimeType(fileExt) {
     case "ogg": return "audio/ogg";
     case "wav": return "audio/wave";
     case "webm": return "audio/webm";
+    case "opus": return "audio/opus";
   }
 }
